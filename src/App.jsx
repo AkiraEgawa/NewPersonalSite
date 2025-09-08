@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './components/Nav.jsx'
+import Navbar from './Pages/Components/Nav.jsx'
+import AboutMe from './Pages/AboutMe.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Navbar />
+    <div style={{width:'60em'}} className='center'>
+      <AboutMe />
+    </div>
   )
 }
 
