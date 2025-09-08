@@ -8,6 +8,7 @@ export default function Navbar() {
                     <a className="btn btn-ghost text-xl">About Me</a>
                     <a className="btn btn-ghost text-xl">Hobbies</a>
                     <a className="btn btn-ghost text-xl">Resume</a>
+                    <a className="btn btn-ghost text-xl">Fun Projects</a>
                 </div>
             </div>
         </>
